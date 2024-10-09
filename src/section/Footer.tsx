@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <hr className="bg-[#0c134c]" />
 
-      <footer className="flex min-h-full items-center bg-[#0c134c] px-4 md:px-14 lg:h-[35vh] lg:px-12">
+      <footer className="flex min-h-full items-center bg-[#0c134c] px-4 md:px-14 lg:h-full lg:px-12">
         <div className="flex w-full flex-col items-center py-1 lg:flex-row">
           <div className="flex flex-col space-y-6 px-3 py-10 md:w-full lg:w-1/3">
             <div className="flex items-center gap-3">
@@ -19,7 +19,7 @@ const Footer = () => {
             <h3 className="px-2 text-[#5d6386]">
               Empowering individuals to break free
             </h3>
-            <div className="flex items-center justify-between rounded-full border-2 border-[#1b2463] px-3 py-2">
+            <div className="flex items-center justify-between  rounded-full border-2 border-[#1b2463] px- py-2">
               <input
                 className="ml-2 mr-4 w-2/3 bg-transparent px-1 py-1 font-light italic text-[#fbfbfb]"
                 type="text"

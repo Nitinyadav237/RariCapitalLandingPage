@@ -53,36 +53,36 @@ export const footerLinks = [
 export const cardinfo = [
   {
   title: "Earn",
-  image: "../public/Bitcoin Up.png",
+  image: "../Bitcoin Up.png",
   info:"Deposit crypto-assets to automatically begin earning the highest yield"
 },
 {
   title: "Fuse",
-  image: "../public/Power Fuse.png",
+  image: "../Power Fuse.png",
   info:"An open interest rate protocol .Works with any assets on your terms"
 },
 {
   title: "Governance",
-  image: "../public/Bank Growth.png",
+  image: "../Bank Growth.png",
   info:"Participate in governance to develop the future of the Rari Protocol"
 },
 
 ]
 export const social = [
 {
-  icon: "../public/discord.png",
+  icon: "../discord.png",
   iconName: "Discord",
   info:"Come and chat with the Rari Capital community in real-time "
   
   },
   {
-  icon: "../public/twitter.png",
+  icon: "../twitter.png",
   iconName: "Twitter",
   info:"@RariCapital for the altest on the protocol and task forces "
   
   },
   {
-  icon: "../public/Notes.png",
+  icon: "../Notes.png",
   iconName: "Contribution Guide",
   info:"Learn how to contribute to the protocol "
 }
