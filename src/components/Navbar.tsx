@@ -103,7 +103,7 @@ const Navbar = () => {
             exit={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.3 }}
           
-            className="absolute right-2 top-2 mt-3 flex h-1/2 w-56 flex-col items-center justify-center space-y-8 rounded-2xl border-2 bg-primary-bg text-3xl font-medium text-white opacity-75 backdrop-blur-lg md:right-5 md:w-96 lg:hidden">
+            className="absolute right-2 top-2 mt-3 flex h-1/2 w-56 flex-col items-center justify-center space-y-8 rounded-2xl border-2 z-10 bg-primary-bg text-3xl font-medium text-white opacity-75 backdrop-blur-lg md:right-5 md:w-96 lg:hidden">
             <div
               className="absolute right-4 top-4 hidden max-lg:block"
               onClick={handleToggle}

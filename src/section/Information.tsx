@@ -97,9 +97,9 @@ const Information = () => {
             {/* Info Card */}
             <div className="flex items-center justify-center rounded-full bg-[#212878] py-3  ">
               <div className="flex w-full  items-center justify-center px-3 py-2">
-                <div className="w-3/4 text-center">
+                <div className="w-3/4 text-center flex justify-center items-center flex-col">
                   <h2 className="text-xl text-white">{item.iconName}</h2>
-                  <p className="mt-2 text-xs lg:pr-4 lg:text-base text-balance font-medium text-[#9ea2b5]">
+                  <p className="mt-2 text-xs lg:pr-4 lg:text-base text-balance  w-5/6 font-medium text-[#9ea2b5]">
                     {item.info}
                   </p>
                 </div>
