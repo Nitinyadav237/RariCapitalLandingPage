@@ -37,8 +37,8 @@ const MainSection = () => {
               <h1 className="text-3xl font-bold text-white md:text-5xl">Rari Capital</h1>
               <p className="mt-4 text-sm text-[#7c7fa6]">The primary interface for interacting with the Rari Protocol on Ethereum</p>
               <div className="mt-6 flex items-center gap-4">
-                <div className="flex h-14 w-14 border-2 items-center justify-center rounded-full  border-[#713c9b]">
-                  <img className="h-8 w-8 -rotate-45" src={rightArrow} alt="contribute" />
+                <div className="flex  h-14 w-14 border-2 items-center justify-center rounded-full  border-[#713c9b]">
+                  <img className=" h-8 w-8 -rotate-45" src={rightArrow} alt="contribute" />
                 </div>
                 <button className="h-14 w-40 md:w-44 rounded-lg border-2 border-[#713c9b] text-xl text-white hover:bg-[#713c9b]">
                   Explore Now
@@ -46,7 +46,7 @@ const MainSection = () => {
               </div>
             </div>
             <img
-              className="h-[8rem] w-[4rem] md:w-[8rem]  pl-2 md:h-[12rem] lg:h-[14rem]"
+              className="hidden md:inline-block md:w-[8rem]  pl-2 md:h-[12rem] lg:h-[14rem]"
               src="vecteezy_3d-nft-machine-png-illustration_10676836.png"
               alt="NFT machine"
             />

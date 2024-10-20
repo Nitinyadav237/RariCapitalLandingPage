@@ -83,10 +83,10 @@ const Information = () => {
           <motion.div
             variants={itemVariants}
             key={item.iconName}
-            className="relative h-full w-full px-6 py-4 text-center lg:w-1/3"
+            className="relative h-full w-full border-pink-500 px-6 py-4 text-center lg:w-1/3"
           >
             {/* Floating Icon */}
-            <div className="absolute -top-2 left-2">
+            <div className="absolute -top-2 left-2 ">
               <img
                 className="h-20 w-20 rounded-full"
                 src={item.icon}
@@ -95,11 +95,11 @@ const Information = () => {
             </div>
 
             {/* Info Card */}
-            <div className="flex items-center justify-center rounded-full bg-[#212878] py-3 lg:px-2">
-              <div className="flex w-[25rem] items-center justify-center px-5 py-2">
-                <div className="w-3/4 text-left">
+            <div className="flex items-center justify-center rounded-full bg-[#212878] py-3  ">
+              <div className="flex w-full  items-center justify-center px-3 py-2">
+                <div className="w-3/4 text-center">
                   <h2 className="text-xl text-white">{item.iconName}</h2>
-                  <p className="mt-2 text-xs font-medium text-[#9ea2b5]">
+                  <p className="mt-2 text-xs lg:pr-4 lg:text-base text-balance font-medium text-[#9ea2b5]">
                     {item.info}
                   </p>
                 </div>

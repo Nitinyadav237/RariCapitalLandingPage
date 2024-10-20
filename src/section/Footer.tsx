@@ -19,7 +19,7 @@ const Footer = () => {
             <h3 className="px-2 text-[#5d6386]">
               Empowering individuals to break free
             </h3>
-            <div className="flex items-center justify-between  rounded-full border-2 border-[#1b2463] px- py-2">
+            <div className="flex items-center justify-between  rounded-full border-2 border-[#1b2463] px-2 py-2">
               <input
                 className="ml-2 mr-4 w-2/3 bg-transparent px-1 py-1 font-light italic text-[#fbfbfb]"
                 type="text"
